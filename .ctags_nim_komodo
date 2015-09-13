@@ -11,4 +11,5 @@
 --regex-nim=/proc\s+`([^!][^`]*)`/\1/o,operator/
 --regex-nim=/template\s+(\w+)/\1/t,template/
 --regex-nim=/macro\s+(\w+)/\1/m,macro/
+--regex-nim=/iterator\s+(\w+)/\1/i,iterator/
 --exclude=nimcache
